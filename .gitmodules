@@ -58,3 +58,7 @@
 [submodule "LibreTransmitter"]
 	path = LibreTransmitter
 	url = https://github.com/LoopKit/LibreTransmitter.git
+[submodule "CareSensKit"]
+	path = CareSensKit
+	url = https://github.com/allenst486dbxdripswift/CareSensKit.git
+	branch = dev
