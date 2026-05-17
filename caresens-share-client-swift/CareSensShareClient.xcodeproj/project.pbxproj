@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E60B36FDC54096B4774F77 /* HKUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A942EA1633347AD91AD106A /* HKUnit.swift */; };
+		48970735407846B5B1DC28CF /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CA51520A043A2AF491737 /* TimeInterval.swift */; };
+		1A46BDFEAF8D4E38BC1F1456 /* IdentifiableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322A7349D7B49ACB2C3CE12 /* IdentifiableClass.swift */; };
+		D826B12F0D6649708E42DA8B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A61F570BBB4CE38C860F62 /* UIColor.swift */; };
+		53D7E29BD2CC4153B8E94515 /* CareSensShareClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B15B9EB9EB4ADDA8EA50BE /* CareSensShareClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC5426860EE4A51BC2C12FA /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBAEED6E576452AA78E9C06 /* LoopKit.framework */; };
+		D9C55D72DB7B48AFA8C145F6 /* CareSensShareClientUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 610BD1E05AE44F728924750E /* CareSensShareClientUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10B3372564C4C9283978DBC /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBAEED6E576452AA78E9C06 /* LoopKit.framework */; };
+		6C672D1D9D9F4AB6A7D20CE3 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6056F6E6476C438F81E7F2EF /* LoopKitUI.framework */; };
+		AB56EB4AC7C54847BA3D50E2 /* CareSensShareClientSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE864A7237E4391967D9378 /* CareSensShareClientSetupViewController.swift */; };
+		B970AE6BE2104398B6A65165 /* CareSensShareClientManager+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763E3F1FA3A43B0BCEA3E91 /* CareSensShareClientManager+UI.swift */; };
+		A3F1AEAE6C3B49608CA003F3 /* CareSensShareClientSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA67F1CD9964D22ABC7CCED /* CareSensShareClientSettingsViewController.swift */; };
+		1CA69A8CCDCC40988790DD09 /* CareSensShareClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337A722627AA4DEBA7B263E4 /* CareSensShareClient.framework */; };
+		229C481789444BA4B559706F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4336CEDAB8D74B298A362912 /* HealthKit.framework */; };
+		736F3CE2F0C3416B99C7218E /* ShareService+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5DE91F4E94E02990494B7 /* ShareService+UI.swift */; };
+		3C1F2E41D18E4AE7842BD516 /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B57C211ABB44009D3EB058 /* ShareService.swift */; };
+		4084CB670D8C4DB28A2207C4 /* ShareGlucose+GlucoseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A1876CCBD342E08D2B9A87 /* ShareGlucose+GlucoseKit.swift */; };
+		9C308C7BBE8B42E493BF8D76 /* CareSensShareClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC3C7E950943089FA449E1 /* CareSensShareClientManager.swift */; };
+		68C4E5839CFA491F9ED118FE /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D596DB4015E445C81DD880C /* LocalizedString.swift */; };
+		AD4D74989D394D23A5C44050 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D596DB4015E445C81DD880C /* LocalizedString.swift */; };
+		DFE0A98893C84DB1860ECA6D /* CareSensShareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927F5A490D94226B46E91B7 /* CareSensShareClient.swift */; };
+		5A51D546A7164DBF8F3589FE /* HKUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A942EA1633347AD91AD106A /* HKUnit.swift */; };
+		9B9A29E8F4EB4E9EAD091CC4 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CA51520A043A2AF491737 /* TimeInterval.swift */; };
+		E1B01A5BD07E40A1B14AEEC5 /* CareSensShareClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC3C7E950943089FA449E1 /* CareSensShareClientManager.swift */; };
+		74E5F738CE2843DEABD8B38A /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D596DB4015E445C81DD880C /* LocalizedString.swift */; };
+		443ED549E67F4C7587DE1CA7 /* ShareGlucose+GlucoseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A1876CCBD342E08D2B9A87 /* ShareGlucose+GlucoseKit.swift */; };
+		45DA992C28D64B71A1F7BE0E /* CareSensShareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927F5A490D94226B46E91B7 /* CareSensShareClient.swift */; };
+		B8621DE9E2704C729496BFC9 /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B57C211ABB44009D3EB058 /* ShareService.swift */; };
+		D43F3DCC40C7492692F27E59 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBAEED6E576452AA78E9C06 /* LoopKit.framework */; };
+		8AD1284B332645F280F7C60C /* CareSensShareClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B15B9EB9EB4ADDA8EA50BE /* CareSensShareClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		141AA457A4FC48A1A951C307 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D4A4C38B9B4459AF7DB6EF /* HealthKit.framework */; };
+		0676590AE99F40D7BEA29EB9 /* CareSensShareClientPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7670B945CD14FDFAC0A426B /* CareSensShareClientPlugin.swift */; };
+		78A518B520E3422CBA3EAC84 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9D53C01D6A41BE9317A28C /* OSLog.swift */; };
+		C3C2641BB2364A30806C9603 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9D53C01D6A41BE9317A28C /* OSLog.swift */; };
+		5E1C1633C3C648AB82A151F2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1A6923DEE29B45B88D15DC29 /* Localizable.xcstrings */; };
+		9525AE68683F4376BEB96DD1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 48DF4244DC3D4E138294ADEB /* Localizable.xcstrings */; };
+		06B8B81CA9A64D5A82A7E4AE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 48DF4244DC3D4E138294ADEB /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A85126C476482A96919358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F8D680DD6443EB91572FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98F9F0C581E4027884965B0;
+			remoteInfo = CareSensShareClient;
+		};
+		07996CCC26B446B9BE738AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F8D680DD6443EB91572FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BD084F8D9E74D599B333989;
+			remoteInfo = CareSensShareClientUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A942EA1633347AD91AD106A /* HKUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKUnit.swift; sourceTree = "<group>"; };
+		D14CA51520A043A2AF491737 /* TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		3322A7349D7B49ACB2C3CE12 /* IdentifiableClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableClass.swift; sourceTree = "<group>"; };
+		A9A61F570BBB4CE38C860F62 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		337A722627AA4DEBA7B263E4 /* CareSensShareClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CareSensShareClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B15B9EB9EB4ADDA8EA50BE /* CareSensShareClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CareSensShareClient.h; sourceTree = "<group>"; };
+		6DC5C942FEBA48FEB7C82349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBAEED6E576452AA78E9C06 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9767C1E07095426FBC3487D5 /* CareSensShareClientUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CareSensShareClientUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		610BD1E05AE44F728924750E /* CareSensShareClientUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CareSensShareClientUI.h; sourceTree = "<group>"; };
+		9FEA9505638E4917BC6464CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6056F6E6476C438F81E7F2EF /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE864A7237E4391967D9378 /* CareSensShareClientSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareSensShareClientSetupViewController.swift; sourceTree = "<group>"; };
+		1763E3F1FA3A43B0BCEA3E91 /* CareSensShareClientManager+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CareSensShareClientManager+UI.swift"; sourceTree = "<group>"; };
+		FEA67F1CD9964D22ABC7CCED /* CareSensShareClientSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareSensShareClientSettingsViewController.swift; sourceTree = "<group>"; };
+		4336CEDAB8D74B298A362912 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		0FC5DE91F4E94E02990494B7 /* ShareService+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareService+UI.swift"; sourceTree = "<group>"; };
+		77B57C211ABB44009D3EB058 /* ShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareService.swift; sourceTree = "<group>"; };
+		C3A1876CCBD342E08D2B9A87 /* ShareGlucose+GlucoseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareGlucose+GlucoseKit.swift"; sourceTree = "<group>"; };
+		A1AC3C7E950943089FA449E1 /* CareSensShareClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareSensShareClientManager.swift; sourceTree = "<group>"; };
+		7D596DB4015E445C81DD880C /* LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		B927F5A490D94226B46E91B7 /* CareSensShareClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareSensShareClient.swift; sourceTree = "<group>"; };
+		C7502F5A89F3438AA0EE1FF3 /* CareSensShareClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CareSensShareClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D4A4C38B9B4459AF7DB6EF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		5AE868E36055479FA688EE1C /* CareSensShareClientPlugin.loopplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareSensShareClientPlugin.loopplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AC805990644DACB21CD06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A332E64C874248F4BDE62A24 /* CareSensShareClientPlugin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CareSensShareClientPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7670B945CD14FDFAC0A426B /* CareSensShareClientPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareSensShareClientPlugin.swift; sourceTree = "<group>"; };
+		CA9D53C01D6A41BE9317A28C /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		1A6923DEE29B45B88D15DC29 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		48DF4244DC3D4E138294ADEB /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344AE4CF3F114F9B938F86D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229C481789444BA4B559706F /* HealthKit.framework in Frameworks */,
+				9CC5426860EE4A51BC2C12FA /* LoopKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A077DE5BB1F4C3D9ABB7C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA69A8CCDCC40988790DD09 /* CareSensShareClient.framework in Frameworks */,
+				6C672D1D9D9F4AB6A7D20CE3 /* LoopKitUI.framework in Frameworks */,
+				B10B3372564C4C9283978DBC /* LoopKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D708DFBA9349A7B3632CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141AA457A4FC48A1A951C307 /* HealthKit.framework in Frameworks */,
+				D43F3DCC40C7492692F27E59 /* LoopKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CCA15444E5497C823EE04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114D1813E1C2493BA3E5F78E = {
+			isa = PBXGroup;
+			children = (
+				278C379EA5E34ECF9E4F1BCC /* Common */,
+				1200380FC0E7469EA1D72F44 /* CareSensShareClient */,
+				085560240F714EA4B5BE2E6F /* CareSensShareClientUI */,
+				F33BA81D699D4FCA8879CA25 /* CareSensShareClientPlugin */,
+				2A4A1AD21A9A4A44A896D0A7 /* Products */,
+				8398F0276F4544EA9BF2BD07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A4A1AD21A9A4A44A896D0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337A722627AA4DEBA7B263E4 /* CareSensShareClient.framework */,
+				9767C1E07095426FBC3487D5 /* CareSensShareClientUI.framework */,
+				C7502F5A89F3438AA0EE1FF3 /* CareSensShareClient.framework */,
+				5AE868E36055479FA688EE1C /* CareSensShareClientPlugin.loopplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1200380FC0E7469EA1D72F44 /* CareSensShareClient */ = {
+			isa = PBXGroup;
+			children = (
+				48DF4244DC3D4E138294ADEB /* Localizable.xcstrings */,
+				7A942EA1633347AD91AD106A /* HKUnit.swift */,
+				B927F5A490D94226B46E91B7 /* CareSensShareClient.swift */,
+				A1AC3C7E950943089FA449E1 /* CareSensShareClientManager.swift */,
+				C3A1876CCBD342E08D2B9A87 /* ShareGlucose+GlucoseKit.swift */,
+				77B57C211ABB44009D3EB058 /* ShareService.swift */,
+				D14CA51520A043A2AF491737 /* TimeInterval.swift */,
+				E5B15B9EB9EB4ADDA8EA50BE /* CareSensShareClient.h */,
+				6DC5C942FEBA48FEB7C82349 /* Info.plist */,
+				CA9D53C01D6A41BE9317A28C /* OSLog.swift */,
+			);
+			path = CareSensShareClient;
+			sourceTree = "<group>";
+		};
+		8398F0276F4544EA9BF2BD07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4336CEDAB8D74B298A362912 /* HealthKit.framework */,
+				A4D4A4C38B9B4459AF7DB6EF /* HealthKit.framework */,
+				6056F6E6476C438F81E7F2EF /* LoopKitUI.framework */,
+				AEBAEED6E576452AA78E9C06 /* LoopKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		085560240F714EA4B5BE2E6F /* CareSensShareClientUI */ = {
+			isa = PBXGroup;
+			children = (
+				1A6923DEE29B45B88D15DC29 /* Localizable.xcstrings */,
+				3322A7349D7B49ACB2C3CE12 /* IdentifiableClass.swift */,
+				610BD1E05AE44F728924750E /* CareSensShareClientUI.h */,
+				1763E3F1FA3A43B0BCEA3E91 /* CareSensShareClientManager+UI.swift */,
+				FEA67F1CD9964D22ABC7CCED /* CareSensShareClientSettingsViewController.swift */,
+				1FE864A7237E4391967D9378 /* CareSensShareClientSetupViewController.swift */,
+				0FC5DE91F4E94E02990494B7 /* ShareService+UI.swift */,
+				A9A61F570BBB4CE38C860F62 /* UIColor.swift */,
+				9FEA9505638E4917BC6464CA /* Info.plist */,
+			);
+			path = CareSensShareClientUI;
+			sourceTree = "<group>";
+		};
+		278C379EA5E34ECF9E4F1BCC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7D596DB4015E445C81DD880C /* LocalizedString.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F33BA81D699D4FCA8879CA25 /* CareSensShareClientPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				54AC805990644DACB21CD06D /* Info.plist */,
+				A7670B945CD14FDFAC0A426B /* CareSensShareClientPlugin.swift */,
+				A332E64C874248F4BDE62A24 /* CareSensShareClientPlugin-Bridging-Header.h */,
+			);
+			path = CareSensShareClientPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C8E7D0FC6F7430EB5408619 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D7E29BD2CC4153B8E94515 /* CareSensShareClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86141F57E764B71AB225926 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C55D72DB7B48AFA8C145F6 /* CareSensShareClientUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009D02E0B3A44CBC9B4FB5DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD1284B332645F280F7C60C /* CareSensShareClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E98F9F0C581E4027884965B0 /* CareSensShareClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD94E98D3814A01A4292B33 /* Build configuration list for PBXNativeTarget "CareSensShareClient" */;
+			buildPhases = (
+				1C8E7D0FC6F7430EB5408619 /* Headers */,
+				97101288A0814AFBBB16B9B0 /* Sources */,
+				344AE4CF3F114F9B938F86D0 /* Frameworks */,
+				46580074F7EB495FB197FBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareSensShareClient;
+			productName = CareSensShareClient;
+			productReference = 337A722627AA4DEBA7B263E4 /* CareSensShareClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0BD084F8D9E74D599B333989 /* CareSensShareClientUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868723FEDAE4469C83E6595F /* Build configuration list for PBXNativeTarget "CareSensShareClientUI" */;
+			buildPhases = (
+				A86141F57E764B71AB225926 /* Headers */,
+				3A4A029CFA944C0E8023CA07 /* Sources */,
+				3A077DE5BB1F4C3D9ABB7C15 /* Frameworks */,
+				AD86EBB62E7F4DB7A6EFEFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2ED7740FE5471095331CBE /* PBXTargetDependency */,
+			);
+			name = CareSensShareClientUI;
+			productName = CareSensShareClientUI;
+			productReference = 9767C1E07095426FBC3487D5 /* CareSensShareClientUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEDD1654A4FB41A192BDB822 /* CareSensShareClient-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B4A9E8C5D947F2A433752A /* Build configuration list for PBXNativeTarget "CareSensShareClient-watchOS" */;
+			buildPhases = (
+				C0A12B1741134C12B2DF4B63 /* Sources */,
+				79D708DFBA9349A7B3632CF1 /* Frameworks */,
+				009D02E0B3A44CBC9B4FB5DF /* Headers */,
+				6F35A77633694845BC2FCA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CareSensShareClient-watchOS";
+			productName = CareSensShareClient;
+			productReference = C7502F5A89F3438AA0EE1FF3 /* CareSensShareClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30E6C51351594F289C662A17 /* CareSensShareClientPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A5459377BD46EDAAB38C9F /* Build configuration list for PBXNativeTarget "CareSensShareClientPlugin" */;
+			buildPhases = (
+				964E4F6162364094BBA046F1 /* Sources */,
+				F4CCA15444E5497C823EE04E /* Frameworks */,
+				F5D09B56D89740B8B910FB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BBAA48F9FA4B3CAC180A60 /* PBXTargetDependency */,
+			);
+			name = CareSensShareClientPlugin;
+			productName = CareSensShareClientPlugin;
+			productReference = 5AE868E36055479FA688EE1C /* CareSensShareClientPlugin.loopplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F8D680DD6443EB91572FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1330;
+				ORGANIZATIONNAME = "Mark Wilson";
+				TargetAttributes = {
+					E98F9F0C581E4027884965B0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1020;
+					};
+					0BD084F8D9E74D599B333989 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					30E6C51351594F289C662A17 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E6731ED8583E4C2F89B67F21 /* Build configuration list for PBXProject "CareSensShareClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				de,
+				"zh-Hans",
+				es,
+				it,
+				nl,
+				nb,
+				ru,
+				pl,
+				ja,
+				"pt-BR",
+				sv,
+				vi,
+				ro,
+				fi,
+				da,
+				tr,
+				he,
+				sk,
+				ar,
+				cs,
+				hi,
+				ce,
+				hu,
+				uk,
+			);
+			mainGroup = 114D1813E1C2493BA3E5F78E;
+			productRefGroup = 2A4A1AD21A9A4A44A896D0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E98F9F0C581E4027884965B0 /* CareSensShareClient */,
+				BEDD1654A4FB41A192BDB822 /* CareSensShareClient-watchOS */,
+				0BD084F8D9E74D599B333989 /* CareSensShareClientUI */,
+				30E6C51351594F289C662A17 /* CareSensShareClientPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46580074F7EB495FB197FBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9525AE68683F4376BEB96DD1 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD86EBB62E7F4DB7A6EFEFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1C1633C3C648AB82A151F2 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F35A77633694845BC2FCA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8B81CA9A64D5A82A7E4AE /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D09B56D89740B8B910FB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97101288A0814AFBBB16B9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E60B36FDC54096B4774F77 /* HKUnit.swift in Sources */,
+				48970735407846B5B1DC28CF /* TimeInterval.swift in Sources */,
+				78A518B520E3422CBA3EAC84 /* OSLog.swift in Sources */,
+				9C308C7BBE8B42E493BF8D76 /* CareSensShareClientManager.swift in Sources */,
+				68C4E5839CFA491F9ED118FE /* LocalizedString.swift in Sources */,
+				4084CB670D8C4DB28A2207C4 /* ShareGlucose+GlucoseKit.swift in Sources */,
+				DFE0A98893C84DB1860ECA6D /* CareSensShareClient.swift in Sources */,
+				3C1F2E41D18E4AE7842BD516 /* ShareService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A029CFA944C0E8023CA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F1AEAE6C3B49608CA003F3 /* CareSensShareClientSettingsViewController.swift in Sources */,
+				D826B12F0D6649708E42DA8B /* UIColor.swift in Sources */,
+				736F3CE2F0C3416B99C7218E /* ShareService+UI.swift in Sources */,
+				AD4D74989D394D23A5C44050 /* LocalizedString.swift in Sources */,
+				1A46BDFEAF8D4E38BC1F1456 /* IdentifiableClass.swift in Sources */,
+				B970AE6BE2104398B6A65165 /* CareSensShareClientManager+UI.swift in Sources */,
+				AB56EB4AC7C54847BA3D50E2 /* CareSensShareClientSetupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A12B1741134C12B2DF4B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A51D546A7164DBF8F3589FE /* HKUnit.swift in Sources */,
+				9B9A29E8F4EB4E9EAD091CC4 /* TimeInterval.swift in Sources */,
+				E1B01A5BD07E40A1B14AEEC5 /* CareSensShareClientManager.swift in Sources */,
+				74E5F738CE2843DEABD8B38A /* LocalizedString.swift in Sources */,
+				443ED549E67F4C7587DE1CA7 /* ShareGlucose+GlucoseKit.swift in Sources */,
+				45DA992C28D64B71A1F7BE0E /* CareSensShareClient.swift in Sources */,
+				B8621DE9E2704C729496BFC9 /* ShareService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964E4F6162364094BBA046F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C2641BB2364A30806C9603 /* OSLog.swift in Sources */,
+				0676590AE99F40D7BEA29EB9 /* CareSensShareClientPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2ED7740FE5471095331CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98F9F0C581E4027884965B0 /* CareSensShareClient */;
+			targetProxy = 26A85126C476482A96919358 /* PBXContainerItemProxy */;
+		};
+		93BBAA48F9FA4B3CAC180A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BD084F8D9E74D599B333989 /* CareSensShareClientUI */;
+			targetProxy = 07996CCC26B446B9BE738AE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B0279C0A6EB4F9BB14F5600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFLocalizedString,
+					LocalizedString,
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		2B7A0E95048E4AE5A042A1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFLocalizedString,
+					LocalizedString,
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		BD05A913C9C342F18C01C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CareSensShareClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.CareSensShareClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EE9CDD6D53942429E1DB4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CareSensShareClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.CareSensShareClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		873A9AEEE21441E1922C668A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CareSensShareClientUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.CareSensShareClientUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00BDA39325104D749E005A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CareSensShareClientUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.CareSensShareClientUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E42644DA2A0842EB8B396A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CareSensShareClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.CareSensShareClient;
+				PRODUCT_NAME = CareSensShareClient;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		607624348DB1443BA6D70834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CareSensShareClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.CareSensShareClient;
+				PRODUCT_NAME = CareSensShareClient;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		163DF6BD33C64C3DB312708B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CareSensShareClientPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.CareSensShareClientPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "CareSensShareClientPlugin/CareSensShareClientPlugin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Debug;
+		};
+		DF09AEE960EA445495EF4FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CareSensShareClientPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.CareSensShareClientPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "CareSensShareClientPlugin/CareSensShareClientPlugin-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6731ED8583E4C2F89B67F21 /* Build configuration list for PBXProject "CareSensShareClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0279C0A6EB4F9BB14F5600 /* Debug */,
+				2B7A0E95048E4AE5A042A1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD94E98D3814A01A4292B33 /* Build configuration list for PBXNativeTarget "CareSensShareClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD05A913C9C342F18C01C99A /* Debug */,
+				2EE9CDD6D53942429E1DB4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868723FEDAE4469C83E6595F /* Build configuration list for PBXNativeTarget "CareSensShareClientUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873A9AEEE21441E1922C668A /* Debug */,
+				00BDA39325104D749E005A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B4A9E8C5D947F2A433752A /* Build configuration list for PBXNativeTarget "CareSensShareClient-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42644DA2A0842EB8B396A06 /* Debug */,
+				607624348DB1443BA6D70834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A5459377BD46EDAAB38C9F /* Build configuration list for PBXNativeTarget "CareSensShareClientPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163DF6BD33C64C3DB312708B /* Debug */,
+				DF09AEE960EA445495EF4FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80F8D680DD6443EB91572FC6 /* Project object */;
+}
