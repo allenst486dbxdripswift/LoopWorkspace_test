@@ -87,7 +87,7 @@ public class ShareService: ServiceAuthentication {
 }
 
 
-private let CareSensShareURL = URL(string: KnownShareServers.US.rawValue)!
+private let CareSensShareURL = URL(string: KnownShareServers.Default.rawValue)!
 private let CareSensShareServiceLabel = "CareSensShare2"
 
 

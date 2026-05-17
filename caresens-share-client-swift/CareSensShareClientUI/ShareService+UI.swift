@@ -30,12 +30,8 @@ extension ShareService: ServiceAuthenticationUI {
                 title: LocalizedString("Server", comment: "The title of the CareSens Share server URL credential"),
                 isSecret: false,
                 options: [
-                    (title: LocalizedString("US", comment: "U.S. share server option title"),
-                     value: KnownShareServers.US.rawValue),
-                    (title: LocalizedString("APAC", comment: "Japan, Phillipines, Singapore share server option title"), value: KnownShareServers.APAC.rawValue),
-                    (title: LocalizedString("Worldwide", comment: "Outside US and APAC share server option title"),
-                     value: KnownShareServers.Worldwide.rawValue)
-
+                    (title: LocalizedString("Default", comment: "Default CareSens share server option title"),
+                     value: KnownShareServers.Default.rawValue)
                 ]
             )
         ]
