@@ -11,6 +11,7 @@ import LoopKitUI
 import CareSensShareClient
 import CareSensShareClientUI
 
+@objc(CareSensShareClientPlugin)
 class CareSensShareClientPlugin: NSObject, CGMManagerUIPlugin {
     private let log = OSLog(category: "CareSensShareClientPlugin")
     
