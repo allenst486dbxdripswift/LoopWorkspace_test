@@ -156,7 +156,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "??רשת ???ק?"
+            "value" : "נדרשת בדיקה"
           }
         },
         "it" : {
@@ -168,7 +168,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "注意?�て?�だ?�い"
+            "value" : "注意してください"
           }
         },
         "nb" : {
@@ -198,13 +198,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Necesită aten?ie"
+            "value" : "Necesită atenție"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Т?еб?е? внимани?"
+            "value" : "Требует внимания"
           }
         },
         "sv" : {
@@ -222,13 +222,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Câ?n chu? y?"
+            "value" : "Cần chú ý"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "请注??
+            "value" : "请注意"
           }
         }
       }
@@ -239,7 +239,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "??ا??"
+            "value" : "موافق"
           }
         },
         "cs" : {
@@ -281,7 +281,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "תק??"
+            "value" : "תקין"
           }
         },
         "it" : {

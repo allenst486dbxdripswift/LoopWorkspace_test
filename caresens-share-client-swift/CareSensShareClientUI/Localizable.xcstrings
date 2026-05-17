@@ -42,7 +42,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?? أ?ت ?تأ?د أ?? تر?د حذ? ?ذا CGM?"
+            "value" : "هل أنت متأكد أنك تريد حذف هذا CGM؟"
           }
         },
         "da" : {
@@ -78,7 +78,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "???? ש?רצ??? ????ק ?ת ???ש? ???"
+            "value" : "בטוח שברצונך למחוק את חיישן זה?"
           }
         },
         "it" : {
@@ -90,7 +90,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�のCGM?�削?�し?�す??"
+            "value" : "このCGMを削除しますか?"
           }
         },
         "nb" : {
@@ -120,13 +120,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sunte?i sigur că dori?i să ?terge?i acest CGM?"
+            "value" : "Sunteți sigur că doriți să ștergeți acest CGM?"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?? ?ве?ен?, ??о ?о?и?е ?дали?? ??о? CGM?"
+            "value" : "Вы уверены, что хотите удалить этот CGM?"
           }
         },
         "sk" : {
@@ -150,13 +150,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bạn co? chă?c se? xo?a CGM na?y?"
+            "value" : "Bạn có chắc sẽ xóa CGM này?"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "�??要删?��?CGM?�？"
+            "value" : "确认要删除该CGM吗？"
           }
         }
       }
@@ -167,7 +167,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "إ?غاء"
+            "value" : "إلغاء"
           }
         },
         "cs" : {
@@ -209,7 +209,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "??"
+            "value" : "לא"
           }
         },
         "hi" : {
@@ -227,7 +227,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "??��?�セ??
+            "value" : "キャンセル"
           }
         },
         "nb" : {
@@ -257,13 +257,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renun?ă"
+            "value" : "Renunță"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "??мена"
+            "value" : "Отмена"
           }
         },
         "sk" : {
@@ -287,13 +287,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hu?y bo?"
+            "value" : "Hủy bỏ"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�消"
+            "value" : "取消"
           }
         }
       }
@@ -334,7 +334,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "פר?? ???ס?"
+            "value" : "פרטי כניסה"
           }
         },
         "it" : {
@@ -382,7 +382,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У?е?н?е данн?е"
+            "value" : "Учетные данные"
           }
         },
         "sv" : {
@@ -400,7 +400,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Thông tin xa?c thực"
+            "value" : "Thông tin xác thực"
           }
         },
         "zh-Hans" : {
@@ -417,7 +417,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ا?تار?خ"
+            "value" : "التاريخ"
           }
         },
         "da" : {
@@ -453,7 +453,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ת?ר??"
+            "value" : "תאריך"
           }
         },
         "it" : {
@@ -465,7 +465,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�付"
+            "value" : "日付"
           }
         },
         "nb" : {
@@ -501,7 +501,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?а?а"
+            "value" : "Дата"
           }
         },
         "sk" : {
@@ -525,13 +525,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nga?y"
+            "value" : "Ngày"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�期"
+            "value" : "日期"
           }
         }
       }
@@ -542,7 +542,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "حذ? CGM"
+            "value" : "حذف CGM"
           }
         },
         "da" : {
@@ -578,7 +578,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "??ק ???ש?"
+            "value" : "מחק חיישן"
           }
         },
         "it" : {
@@ -590,7 +590,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "CGM?�削??
+            "value" : "CGMを削除"
           }
         },
         "nb" : {
@@ -620,13 +620,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?terge?i CGM"
+            "value" : "Ștergeți CGM"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Удали?? мони?о?инг"
+            "value" : "Удалить мониторинг"
           }
         },
         "sk" : {
@@ -650,7 +650,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xo?a CGM"
+            "value" : "Xóa CGM"
           }
         },
         "zh-Hans" : {
@@ -667,7 +667,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?راءات ا?س?ر"
+            "value" : "قراءات السكر"
           }
         },
         "cs" : {
@@ -709,7 +709,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "???ק??"
+            "value" : "גלוקוז"
           }
         },
         "hi" : {
@@ -727,7 +727,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "血糖�?
+            "value" : "血糖値"
           }
         },
         "nb" : {
@@ -763,7 +763,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?л?коза"
+            "value" : "Глюкоза"
           }
         },
         "sk" : {
@@ -787,13 +787,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đươ?ng huyê?t"
+            "value" : "Đường huyết"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "血�?
+            "value" : "血糖"
           }
         }
       }
@@ -804,7 +804,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "آخر ?راءة"
+            "value" : "آخر قراءة"
           }
         },
         "da" : {
@@ -840,7 +840,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "קר??? ??ר???"
+            "value" : "קריאה אחרונה"
           }
         },
         "it" : {
@@ -852,7 +852,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�?�の�?��?�り"
+            "value" : "最新の読み取り"
           }
         },
         "nb" : {
@@ -888,7 +888,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?о?ледние данн?е"
+            "value" : "Последние данные"
           }
         },
         "sk" : {
@@ -912,13 +912,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kê?t qua? đọc mơ?i nhâ?t"
+            "value" : "Kết quả đọc mới nhất"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�?��?糖�?
+            "value" : "最新血糖值"
           }
         }
       }
@@ -960,13 +960,13 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "? l'extérieur des É.-U."
+            "value" : "À l'extérieur des É.-U."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "???ץ ??ר?״?"
+            "value" : "מחוץ לארה״ב"
           }
         },
         "it" : {
@@ -978,7 +978,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "米国�?
+            "value" : "米国外"
           }
         },
         "nb" : {
@@ -1014,7 +1014,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "за п?еделами СШ?"
+            "value" : "за пределами США"
           }
         },
         "sk" : {
@@ -1038,19 +1038,19 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ngoa?i la?nh thô? Hoa Ky?"
+            "value" : "Ngoài lãnh thổ Hoa Kỳ"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�美?�地??
+            "value" : "非美国地区"
           }
         }
       }
     },
     "Password" : {
-      "comment" : "The title of the CareSens Share password credential",
+      "comment" : "The title of the CareSens share password credential",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1085,7 +1085,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ס?ס??"
+            "value" : "סיסמה"
           }
         },
         "it" : {
@@ -1097,7 +1097,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�ス??��??
+            "value" : "パスワード"
           }
         },
         "nb" : {
@@ -1133,7 +1133,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?а?ол?"
+            "value" : "Пароль"
           }
         },
         "sk" : {
@@ -1157,7 +1157,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mật khâ?u"
+            "value" : "Mật khẩu"
           }
         },
         "zh-Hans" : {
@@ -1169,7 +1169,7 @@
       }
     },
     "Server" : {
-      "comment" : "The title of the CareSens Share server URL credential",
+      "comment" : "The title of the CareSens share server URL credential",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1216,7 +1216,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�ー??
+            "value" : "サーバ"
           }
         },
         "nb" : {
@@ -1252,7 +1252,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Се?ве?"
+            "value" : "Сервер"
           }
         },
         "sk" : {
@@ -1276,13 +1276,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ma?y chu?"
+            "value" : "Máy chủ"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�务??
+            "value" : "服务器"
           }
         }
       }
@@ -1293,7 +1293,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "إتجا?"
+            "value" : "إتجاه"
           }
         },
         "da" : {
@@ -1329,7 +1329,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "????"
+            "value" : "מגמה"
           }
         },
         "hi" : {
@@ -1347,7 +1347,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�レ?�ド"
+            "value" : "トレンド"
           }
         },
         "nb" : {
@@ -1377,13 +1377,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tendin?ă"
+            "value" : "Tendință"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Тенден?и?"
+            "value" : "Тенденция"
           }
         },
         "sk" : {
@@ -1407,7 +1407,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xu hươ?ng"
+            "value" : "Xu hướng"
           }
         },
         "zh-Hans" : {
@@ -1454,7 +1454,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?ר?״?"
+            "value" : "ארה״ב"
           }
         },
         "it" : {
@@ -1502,7 +1502,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "СШ?"
+            "value" : "США"
           }
         },
         "sk" : {
@@ -1526,7 +1526,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hoa Ky?"
+            "value" : "Hoa Kỳ"
           }
         },
         "zh-Hans" : {
@@ -1538,7 +1538,7 @@
       }
     },
     "Username" : {
-      "comment" : "The title of the CareSens Share username credential",
+      "comment" : "The title of the CareSens share username credential",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1573,7 +1573,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ש? ?שת?ש"
+            "value" : "שם משתמש"
           }
         },
         "it" : {
@@ -1585,7 +1585,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�ー?�ー??
+            "value" : "ユーザー名"
           }
         },
         "nb" : {
@@ -1621,7 +1621,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?м? пол?зова?ел?"
+            "value" : "Имя пользователя"
           }
         },
         "sk" : {
@@ -1645,13 +1645,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tên ta?i khoa?n"
+            "value" : "Tên tài khoản"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "?�户??
+            "value" : "用户名"
           }
         }
       }
