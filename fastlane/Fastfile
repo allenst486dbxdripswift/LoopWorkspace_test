@@ -55,11 +55,7 @@ platform :ios do
     # If a specific Xcode version is required, configure it in the workflow YAML instead of using xcversion.
 
 
-    # Clean up any existing keychains and create a temporary one for signing
-    delete_keychain(name: "fastlane_tmp_keychain")
-    create_keychain(name: "fastlane_tmp_keychain", password: "")
-    set_keychain_settings(path: "~/Library/Keychains/fastlane_tmp_keychain", lock: false)
-    add_keychain_to_search_path(name: "fastlane_tmp_keychain")
+
 
     # Ensure MATCH_PASSWORD is set for match to access certificates
     ENV["MATCH_PASSWORD"] = ENV["MATCH_PASSWORD"] || ""

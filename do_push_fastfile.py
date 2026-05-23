@@ -10,7 +10,7 @@ def run_cmd(cmd):
 
 def main():
     run_cmd("git add -A")
-    run_cmd('git commit -m "Fix CI: remove deprecated xcversion and use runner Xcode"')
+    run_cmd('git commit -m "Fix CI: remove invalid set_keychain_settings action"')
     run_cmd("git push origin caresens_integration")
 
 if __name__ == "__main__":
