@@ -60,6 +60,19 @@ platform :ios do
     # Ensure MATCH_PASSWORD is set for match to access certificates
     ENV["MATCH_PASSWORD"] = ENV["MATCH_PASSWORD"] || ""
 
+    match(
+      type: "appstore",
+      git_basic_authorization: Base64.strict_encode64("#{GITHUB_REPOSITORY_OWNER}:#{GH_PAT}"),
+      app_identifier: [
+        "com.#{TEAMID}.loopkit.appB.Loop",
+        "com.#{TEAMID}.loopkit.appB.Loop.statuswidget",
+        "com.#{TEAMID}.loopkit.appB.Loop.LoopWatch.watchkitextension",
+        "com.#{TEAMID}.loopkit.appB.Loop.LoopWatch",
+        "com.#{TEAMID}.loopkit.appB.Loop.Loop-Intent-Extension",
+        "com.#{TEAMID}.loopkit.appB.Loop.LoopWidgetExtension"
+      ]
+    )
+
     mapping = Actions.lane_context[
       SharedValues::MATCH_PROVISIONING_PROFILE_MAPPING
     ]
