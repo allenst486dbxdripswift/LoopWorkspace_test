@@ -55,3 +55,6 @@
 [submodule "LibreTransmitter"]
 	path = LibreTransmitter
 	url = https://github.com/LoopKit/LibreTransmitter.git
+[submodule "Loop"]
+	path = Loop
+	url = https://github.com/allenst486dbxdripswift/Loop
