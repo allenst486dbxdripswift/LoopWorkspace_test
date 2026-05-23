@@ -51,18 +51,18 @@ platform :ios do
       build_number: current_build_number
     )      
     
-    match(
-      type: "appstore",
-      git_basic_authorization: Base64.strict_encode64("#{GITHUB_REPOSITORY_OWNER}:#{GH_PAT}"),
-      app_identifier: [
-        "com.#{TEAMID}.loopkit.appB.Loop", 
-        "com.#{TEAMID}.loopkit.appB.Loop.statuswidget", 
-        "com.#{TEAMID}.loopkit.appB.Loop.LoopWatch.watchkitextension", 
-        "com.#{TEAMID}.loopkit.appB.Loop.LoopWatch", 
-        "com.#{TEAMID}.loopkit.appB.Loop.Loop-Intent-Extension",
-        "com.#{TEAMID}.loopkit.appB.Loop.LoopWidgetExtension"
-      ]
-    )
+    # Ensure correct Xcode version is selected for CI builds
+    xcversion(version: "15.2") # Adjust to the required Xcode version
+    sh "sudo xcode-select -s /Applications/Xcode_15.2.app" # Path to the Xcode installation
+
+    # Clean up any existing keychains and create a temporary one for signing
+    delete_keychain(name: "fastlane_tmp_keychain")
+    create_keychain(name: "fastlane_tmp_keychain", password: "")
+    set_keychain_settings(path: "~/Library/Keychains/fastlane_tmp_keychain", lock: false)
+    add_keychain_to_search_path(name: "fastlane_tmp_keychain")
+
+    # Ensure MATCH_PASSWORD is set for match to access certificates
+    ENV["MATCH_PASSWORD"] = ENV["MATCH_PASSWORD"] || ""
 
     mapping = Actions.lane_context[
       SharedValues::MATCH_PROVISIONING_PROFILE_MAPPING
