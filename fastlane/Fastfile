@@ -51,9 +51,9 @@ platform :ios do
       build_number: current_build_number
     )      
     
-    # Ensure correct Xcode version is selected for CI builds
-    xcversion(version: "15.2") # Adjust to the required Xcode version
-    sh "sudo xcode-select -s /Applications/Xcode_15.2.app" # Path to the Xcode installation
+    # Use the Xcode version provided by the CI runner (default)
+    # If a specific Xcode version is required, configure it in the workflow YAML instead of using xcversion.
+
 
     # Clean up any existing keychains and create a temporary one for signing
     delete_keychain(name: "fastlane_tmp_keychain")
