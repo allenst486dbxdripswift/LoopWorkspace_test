@@ -42,27 +42,29 @@ jobs:
             echo "table_printer.rb not found"
           fi
 
-      - name: Install Project Dependencies
-        run: bundle install
-
-      - name: Sync clock
-        run: sudo sntp -sS time.windows.com
-
-      - name: Fastlane Build & Archive (build_loop)
-        run: bundle exec fastlane build_loop
-        env:
-          TEAMID: ${{ secrets.TEAMID }}
-          GH_PAT: ${{ secrets.GH_PAT }}
-          FASTLANE_KEY_ID: ${{ secrets.FASTLANE_KEY_ID }}
-          FASTLANE_ISSUER_ID: ${{ secrets.FASTLANE_ISSUER_ID }}
-          FASTLANE_KEY: ${{ secrets.FASTLANE_KEY }}
-          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+      # Unsigned compile of the whole workspace. This does NOT need Apple
+      # certificates or provisioning profiles, so it isolates whether the
+      # CareSens Air CGM integration actually compiles and links into Loop,
+      # independent of the (currently expired) distribution certificate.
+      - name: Build LoopWorkspace (unsigned compile check)
+        run: |
+          set -o pipefail
+          mkdir -p buildlog
+          xcodebuild build \
+            -workspace LoopWorkspace.xcworkspace \
+            -scheme LoopWorkspace \
+            -configuration Debug \
+            -destination 'generic/platform=iOS' \
+            -skipPackagePluginValidation \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGN_ENTITLEMENTS="" \
+            2>&1 | tee "buildlog/loopworkspace_build.log"
 
       - name: Upload build log artifacts
         if: always()
         uses: actions/upload-artifact@v6
         with:
           name: caresens-build-artifacts
-          path: |
-            artifacts
-            buildlog
+          path: buildlog
