@@ -46,6 +46,14 @@ jobs:
       # certificates or provisioning profiles, so it isolates whether the
       # CareSens Air CGM integration actually compiles and links into Loop,
       # independent of the (currently expired) distribution certificate.
+      #
+      # Target the iOS Simulator, not a generic device: a plain `xcodebuild
+      # build` for `generic/platform=iOS` runs the device embedded-framework
+      # validation, which fails with "Framework … did not contain an Info.plist"
+      # on the bundled *Plugin.framework targets (G5/G6/G7/Amplitude/…). That is
+      # a device-embedding quirk unrelated to the source code; the real signed
+      # `4. Build Loop` (gym archive) handles it. A simulator build compiles all
+      # the same Swift, so it is a clean pass/fail gate for the CareSens code.
       - name: Build LoopWorkspace (unsigned compile check)
         run: |
           set -o pipefail
@@ -54,8 +62,9 @@ jobs:
             -workspace LoopWorkspace.xcworkspace \
             -scheme LoopWorkspace \
             -configuration Debug \
-            -destination 'generic/platform=iOS' \
+            -destination 'generic/platform=iOS Simulator' \
             -skipPackagePluginValidation \
+            ONLY_ACTIVE_ARCH=YES \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
